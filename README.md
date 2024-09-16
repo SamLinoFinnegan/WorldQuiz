@@ -1,4 +1,4 @@
-# WorldQuiz App
+# WorldQuiz App (USA)
 
 WorldQuiz is a simple and fun web-based application that tests your knowledge of different locations around the world. The app is currently a work in progress, but the core gameplay is already functional.
 
