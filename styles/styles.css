@@ -1,0 +1,324 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #54c19d;
+}
+p,
+h1,
+h2,
+a,
+button {
+  font-family: Luckiest Guy;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ignore {
+  display: none;
+}
+
+.map {
+  border: 20px solid gray;
+  background-color: white;
+  border-radius: 5%;
+  padding: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1200px;
+}
+.map img {
+  width: 100%;
+}
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid blue;
+  background-color: #54c19d;
+}
+.rouletDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 411px;
+  height: 230px;
+  border: 40px solid #54c19d;
+  border-radius: 40px;
+  background-color: #d0faff;
+  top: 20px;
+  left: 50%;
+  z-index: 9999;
+}
+.buttonDiv button {
+  display: flex;
+  width: 116px;
+  height: 46px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  border: 1px solid #25635b;
+  background: #54c19d;
+}
+.buttonText {
+  color: #fff;
+  text-align: center;
+  font-family: Luckiest Guy;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0px;
+}
+#id,
+#tries {
+  display: none;
+}
+#player {
+  height: 80px;
+  width: 80px;
+  transition: ease 1s;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 20px;
+  left: 80px;
+  z-index: 10;
+}
+#player img {
+  height: 100%;
+}
+.popup {
+  width: 400px;
+  height: 350px;
+  position: absolute;
+  padding: 20px;
+  justify-content: center;
+  flex-direction: column;
+  top: 20vh;
+  right: 50vh;
+  border: 2px solid black;
+  background-color: #54c19d;
+  border-radius: 10%;
+  display: none;
+  z-index: 99999;
+}
+.popHeader {
+  background: #54c19d;
+  height: 62px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popHeader h2 {
+  color: #f5f5f5;
+  text-shadow: 0px 2px 5px rgba(37, 99, 91, 0.81);
+  font-size: 32px;
+}
+.textDiv p{
+  font-family: Aldrich;
+}
+.popContent{
+  border-radius: 39px;
+  background: #F3F2ED;
+  padding: 10px;
+}
+.hintDiv {
+  text-align: center;
+}
+#hint {
+  display: none;
+  color: yellow;
+}
+.textDiv,
+.inputDiv,
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#NewOrleans,
+#SanFrancisco,
+#Nashville,
+#LasVegas,
+#Seattle,
+#Chicago,
+#Miami,
+#Austin,
+#Boston,
+#Denver,
+#LosAngeles,
+#Atlanta,
+#Philadelphia,
+#Houston,
+#Phoenix,
+#Orlando,
+#SanDiego,
+#Portland,
+#Detroit,
+#Charlotte {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-color: blue;
+  border-radius: 50%;
+  border: 1px double blue;
+  transition: ease 0.2s;
+}
+#NewOrleans:hover {
+  background-color: blue;
+}
+#SanFrancisco:hover {
+  background-color: blue;
+}
+#Nashville:hover {
+  background-color: blue;
+}
+#LasVegas:hover {
+  background-color: blue;
+}
+#Seattle:hover {
+  background-color: blue;
+}
+#Chicago:hover {
+  background-color: blue;
+}
+#Miami:hover {
+  background-color: blue;
+}
+#Austin:hover {
+  background-color: blue;
+}
+#Boston:hover {
+  background-color: blue;
+}
+#Denver:hover {
+  background-color: blue;
+}
+#LosAngeles:hover {
+  background-color: blue;
+}
+#Atlanta:hover {
+  background-color: blue;
+}
+#Philadelphia:hover {
+  background-color: blue;
+}
+#Houston:hover {
+  background-color: blue;
+}
+#Phoenix:hover {
+  background-color: blue;
+}
+#Orlando:hover {
+  background-color: blue;
+}
+#SanDiego:hover {
+  background-color: blue;
+}
+#Portland:hover {
+  background-color: blue;
+}
+#Detroit:hover {
+  background-color: blue;
+}
+#Charlotte:hover {
+  background-color: blue;
+}
+#NewOrleans {
+  top: 628px;
+  left: 724px;
+}
+#SanFrancisco {
+  top: 366px;
+  left: 90px;
+}
+#Nashville {
+  top: 448px;
+  left: 846px;
+}
+
+#LasVegas {
+  top: 440px;
+  left: 230px;
+}
+#Seattle {
+  top: 90px;
+  left: 164px;
+}
+#Chicago {
+  top: 296px;
+  left: 814px;
+}
+#Miami {
+  top: 711px;
+  left: 1045px;
+}
+#Austin {
+  top: 628px;
+  left: 615px;
+}
+#Boston {
+  top: 209px;
+  left: 1137px;
+}
+#Denver {
+  top: 359px;
+  left: 461px;
+}
+#LosAngeles {
+  top: 478px;
+  left: 158px;
+}
+#Atlanta {
+  top: 495px;
+  left: 915px;
+}
+#Philadelphia {
+  top: 297px;
+  left: 1067px;
+}
+#Houston {
+  top: 631px;
+  left: 691px;
+}
+#Phoenix {
+  top: 516px;
+  left: 294px;
+}
+#Orlando {
+  top: 651px;
+  left: 996px;
+}
+#SanDiego {
+  top: 514px;
+  left: 181px;
+}
+#Portland {
+  top: 119px;
+  left: 146px;
+}
+#Detroit {
+  top: 287px;
+  left: 840px;
+}
+#Charlotte {
+  top: 459px;
+  left: 928px;
+}

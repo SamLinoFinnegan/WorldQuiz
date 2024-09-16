@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Quiz</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+
+    <div id="container" class="container">
+
+      <div id="map" class="map">
+        <img src="./image/map.jpg" alt="map" />
+
+        <div class="counter">
+          <p id="count">0</p>
+        </div>
+        <div id="rouletDiv" class="rouletDiv">
+          <p id="ignore"></p>
+          <div class="buttonDiv">
+            <button onclick="spin()">
+              <p class="buttonText">Spin</p>
+            </button>
+          </div>
+        </div>
+
+
+        <div id="popup" class="popup">
+          <div class="popHeader">
+            <h2>Question?</h2>
+          </div>
+          <div class="popContent">
+          <div class="textDiv">
+            <p id="text"></p>
+          </div>
+          <div class="notification" id="notification">
+            <p id="notificationText"></p>
+          </div>
+          <div class="inputDiv" id="inputDiv">
+            <input type="text" id="answer" />
+          </div>
+          <div class="hintDiv">
+            <span id="hint"></span>
+          </div>
+          <p id="id"></p>
+          <p id="tries">3</p>
+          <div class="buttonDiv">
+            <button id="answerButton">Submit</button>
+          </div>
+        </div>
+        </div>
+
+
+        <div id="player">
+          <img src="./image/player.png" alt="player" />
+        </div>
+        <div id="NewOrleans" class="city"></div>
+        <div id="SanFrancisco" class="city"></div>
+        <div id="Nashville" class="city"></div>
+        <div id="LasVegas" class="city"></div>
+        <div id="Seattle" class="city"></div>
+        <div id="Chicago" class="city"></div>
+        <div id="Miami" class="city"></div>
+        <div id="Austin" class="city"></div>
+        <div id="Boston" class="city"></div>
+        <div id="Denver" class="city"></div>
+        <div id="LosAngeles" class="city"></div>
+        <div id="Atlanta" class="city"></div>
+        <div id="Philadelphia" class="city"></div>
+        <div id="Houston" class="city"></div>
+        <div id="Phoenix" class="city"></div>
+        <div id="Orlando" class="city"></div>
+        <div id="SanDiego" class="city"></div>
+        <div id="Portland" class="city"></div>
+        <div id="Detroit" class="city"></div>
+        <div id="Charlotte" class="city"></div>
+      </div>
+    </div>
+
+    <script src="scripts/data.js"></script>
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>

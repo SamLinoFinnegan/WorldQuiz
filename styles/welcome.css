@@ -1,0 +1,61 @@
+
+.welcomepage {
+  background-image: url("./../image/earthO.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 100vh;
+  border: 2px solid black;
+  margin: 0%;
+}
+.content {
+  
+  width: 50%;
+  height: 500px;
+  margin: auto;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.welcomeHeaderDiv h1{
+    color: #212E62;
+    text-shadow: 0px 2px 5px rgba(37, 99, 91, 0.81);
+    font-family: Luckiest Guy;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.welcomeButtonDiv{
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+.welcomeButtonDiv a div {
+  display: flex;
+  width: 354px;
+  height: 79px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border: 1px solid #25635b;
+  background: #b41f32;
+}
+.welcomeButtonDiv a {
+  text-decoration: none;
+}
+.welcomeButtonDiv a p {
+  color: #fff;
+  text-align: center;
+  font-family: Luckiest Guy;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
